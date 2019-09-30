@@ -1,0 +1,133 @@
+body{
+    margin: 0%;
+}
+header{
+    position: sticky;
+    top: 0px;
+    left: 12px;
+    background-color: white;
+}
+#barraDeArriba{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px;
+}
+#barraDeArriba form{
+    display: flex;
+}
+
+#barradebusqueda{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    margin-left: 380px;
+}
+
+#logo{
+    padding: 15px;
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+#carrito{
+    grid-column: 12;
+    grid-row: 1/1;
+    padding: 30px;
+}
+
+#titulo{
+    grid-column: 2/4;
+    grid-row: 1/1;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#divbarradebuscador{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.buscador{
+    border-radius: 20px;
+    width: 400px;
+    height: 35px;
+    text-align: center;
+}
+
+.botondebuscador{
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    
+}
+
+#barradenavegacion{
+    background-color: #047c94;
+    padding: 15px;
+    border: 0px;
+    display: flex;
+    justify-content: space-around;    
+}
+#barradenavegacion ul{
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+}
+#barradenavegacion ul li{
+    display: inline;
+    text-align: center;
+    margin: 10px 100px 10px 10px;
+}
+
+#barradenavegacion ul li a {
+    font-size: 20px;
+    padding: 2px 7px 2px 7px;
+    color: white;
+    text-decoration: none;
+ }
+
+ /***********************************************************************************************************/
+
+ .divfooter{
+    background-color: #064067;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 66px;
+    grid-template-rows: 70px 70px 70px;
+}
+
+.nombreydni1{
+    grid-column: 2/5;
+    grid-row: 1/2;
+    font-size: 140%;
+    margin-top: 20px;
+    margin-left: 3px;
+    color: white;
+}
+
+.facebook{
+    grid-column: 14/15;
+    grid-row: 1/2;
+    margin-top: 50px;
+}
+
+.twitter{
+    grid-column: 15/16;;
+    grid-row: 1/2;
+    margin-top: 50px;
+}
+
+.instagram{
+    grid-column: 14/15;
+    grid-row: 2/3;
+    margin-top: 50px;
+}
+
+.youtube{
+    grid-column: 15/16;;
+    grid-row: 2/3;
+    margin-top: 50px;
+}
