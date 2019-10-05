@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/estiloGeneral.css">
     <link rel="stylesheet" href="CSS/estiloIndex.css">
     <title>INDEX</title>
 </head>
@@ -11,7 +12,7 @@
     <header>
         <div id="barraDeArriba">
             <div id="logo">
-                <a href="index.html"><img src="Imagenes/kisspng-mortal-kombat-deception-reptile-scorpion-video-ga-combat-5ae08a38f010d3.3883885515246648889833.png" width="70" alt=""></a>
+                <a href="index.html"><img src="Imagenes/logo.png" width="70" alt=""></a>
             </div>
 
             <div id="titulo">
@@ -20,8 +21,22 @@
             
             <div id="barradebusqueda">
                 <form action="">		    
-                        <input type="search" class="buscador"placeholder="Busca algo...">		    	
-                        <button class="botondebuscador">BUSCAR</button>
+                    <input type="search" list="browsers" class="buscador"placeholder="Busca un curso de tu interes">
+                        <datalist id="browsers">
+                            <option value="Java">
+                            <option value="SQL Server">
+                            <option value="Android">
+                            <option value="Diseño Gráfico">
+                            <option value="iOS">
+                            <option value="Javascript">
+                            <option value="Microsoft .NET">
+                            <option value="Herramientas Office">
+                            <option value="Programación Web">
+                            <option value="Redes Informáticas">
+                            <option value="Seguridad Informática">
+                            <option value="Windows Server">
+                        </datalist>
+                    <button class="botondebuscador">BUSCAR</button>
                 </form>
             </div>
 
@@ -47,13 +62,16 @@
             </nav>
         </div>
     </header>
+
     <div class="fotoprincipal">
         <div class="foto1">
-            <img id="img" src="Imagenes/foto_codigo.jpg" alt="">
+            
         </div>
-        <p id="aprende">Aprendé a tu ritmo.</p>
-        <p id="encualquierlugar">En cualquier momento y en cualquier lugar.</p>
-
+        <div class="frasesfoto">
+            <p id="aprende">Aprendé a tu ritmo</p>
+            <p id="encualquierlugar">En cualquier momento y en cualquier lugar.</p>
+        </div>
+        
     </div>
 
    <br><br><br><br>
@@ -158,7 +176,7 @@
                <ul>
                    <li>Tabatha 39873678</li>
                    <br>
-                   <li>Zoe 12345678</li>
+                   <li>Un Lean 36948258</li>
                    <br>
                    <li></li>
                    <br>
