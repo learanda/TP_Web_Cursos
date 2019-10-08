@@ -33,10 +33,10 @@ section{
 }
 .precio{
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	background-color: black;
+}
+.precio div{
 	color: white;
+	background-color: black;
 	padding: 5px;
 }
 label{
@@ -114,6 +114,9 @@ input[type=radio]{
 }
 .izquierda{
 	left: 0px;
+}
+.arriba{
+	top:0px;
 }
 .fondo-color{
 	width: 30px;
