@@ -85,3 +85,8 @@ input[type=radio]{
 .pink{
 	background-color: pink;
 }
+.tamanio-fuente > span{
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding: 5px;
+}
