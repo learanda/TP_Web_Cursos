@@ -30,6 +30,7 @@ section{
 .titulo{
 	font-size: 60px;
 	overflow: hidden;
+	color: red;
 }
 .precio{
 	position: absolute;
