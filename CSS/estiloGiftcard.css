@@ -24,6 +24,9 @@ section{
 	vertical-align: middle;
 	display: inline-block;
 }
+.texto-centrado{
+	text-align: center;
+}
 .titulo{
 	font-size: 60px;
 	overflow: hidden;
