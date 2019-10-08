@@ -1,0 +1,91 @@
+section{
+	display: flex;
+	justify-content: center;
+}
+p{
+	margin: 0;
+	display: inline;
+}
+.titulocurso{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.inscripcion{
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.contenido{
+	margin: 50px 0 30px 0;
+	/*border: solid;*/
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.entrada{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	/*border: solid;*/
+	margin: 10px 0px 10px 0;
+}
+.campo{
+	margin-right: 20px;
+	border-style: none;
+	border: 1px grey solid;
+	border-radius: 5px;
+}
+.formulario{
+	width: 610px;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.mas{
+	width: 100%;
+	
+	display: block;
+	margin: 15px 0 25px 0;
+	justify-content: center;
+}
+.enviar{
+	width: 100px;
+}
+.botonsumar, .botonrestar{
+	border-radius: 20px;
+	background-color: #000;
+	color: #fff;
+	border-style: none;
+	width: 25px;
+	height: 25px;
+	
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 10px;
+}
+.botonsumar{
+	font-family: sans-serif;
+	margin-right: 5px;
+}
+.botonrestar{
+	font-family: verdana;
+	line-height: 1px;
+}
+.agregar{
+	
+}
+.total{
+	width: 52px;
+	height: 20px;
+	margin: 3px 20px 0 0;
+	padding-top: 3px;
+	text-align: center;
+    color: white;
+    background-color: #000;
+}
+.inscribirse{
+	width: 110px;
+	height: 30px;
+	background-color: #047c94;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
