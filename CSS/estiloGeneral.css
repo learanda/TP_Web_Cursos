@@ -59,10 +59,8 @@ header{
     z-index: 1;
 }
 #barraDeArriba{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 #barraDeArriba form{
     display: flex;
@@ -72,24 +70,24 @@ header{
     margin-top: 35px;
     display: flex;
     justify-content: center;
-    margin-left: 380px;
+    
 }
 
 #logo{
     padding: 15px;
-    grid-column: 1/1;
-    grid-row: 1/1;
+}
+
+.logoynombre{
+    display: flex;
 }
 
 #carrito{
-    grid-column: 12;
-    grid-row: 1/1;
+    
     padding: 30px;
 }
 
 #titulo{
-    grid-column: 2/4;
-    grid-row: 1/1;
+    
     text-align: center;
     margin-top: 15px;
 }
