@@ -112,11 +112,13 @@
 a{
     text-decoration: none; 
 }
+
 a img{
     margin-top: 10px;
     float: right;
     margin-right: 16px;
 }
+
 .precio{
     margin-top: -50px;
     text-align: right;
