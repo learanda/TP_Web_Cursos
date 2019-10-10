@@ -128,13 +128,23 @@ header{
 }
 
 .cajamenuinferior{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .listamenu{
     list-style: none;
+    margin-right: 45px;
 }
-li a{
+.iteminf{
+    margin-bottom: 5px;
+}
+.listamenu a{
     color: white;
+}
+.listamenu a:hover{
+    color: white;
+    background-color: #047c94;
 }
 
 .cajaredes{
@@ -173,7 +183,9 @@ li a{
     justify-content: center;
     align-items: center;
 }
-
+a{
+    text-decoration: none; 
+}
 a img{
     margin: 5px;
 }
