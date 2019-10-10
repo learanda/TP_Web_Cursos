@@ -1,7 +1,6 @@
 #logo{
-    padding: 0px;
-    grid-column: 1/1;
-    grid-row: 1/1;
+    padding: 5px;
+    
 }
 #img{
     width: 100%; 
@@ -109,9 +108,7 @@
 .cursos a{
     height: 70%;
 }
-a{
-    text-decoration: none; 
-}
+
 
 a img{
     margin-top: 10px;

@@ -2,7 +2,10 @@
 /* ASÍ SE EVITA LA REPETICION DE CÓDIGO */
 
 /***********************************************************************************************************/
-
+#logo{
+    padding: 10px;
+    padding-right: 17px;
+}
 .secciondatos{
     margin: 20px 0 10px 0;
     display: flex;
