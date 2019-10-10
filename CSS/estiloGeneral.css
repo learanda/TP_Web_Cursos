@@ -11,6 +11,24 @@ body{
     grid-template-rows: 70px 70px 70px;
 }*/
 
+#carrito{
+    position: relative;
+}
+.logocarrito{
+    position: absolute;
+}
+#numcarrito{
+    color: white;
+    background-color: red;
+    float: right;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    margin: 0 0 0 40px;
+}
+
 .nombreydni1{
     grid-column: 2/5;
     grid-row: 1/2;

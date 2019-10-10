@@ -1,15 +1,5 @@
 #logo{
     padding: 5px;
-    
-}
-#numcarrito{
-    color: white;
-    background-color: red;
-    float: right;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    border-radius: 10px;
 }
 #img{
     width: 100%; 
