@@ -121,16 +121,20 @@ header{
 #barradenavegacion ul li{
     display: inline;
     text-align: center;
-    margin: 10px 100px 10px 10px;
+    
+}
+#barradenavegacion a{
+    color: white;
+    padding: 15px 66px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
 }
 
-#barradenavegacion ul li a {
-    font-size: 20px;
-    padding: 2px 7px 2px 7px;
-    color: white;
-    text-decoration: none;
- }
-
+#barradenavegacion a:hover{
+    background-color: white;
+    color: black;
+}
 /***********************************************************************************************************/
 /* FOOTER */
 .divfooter{
@@ -182,20 +186,7 @@ header{
     align-items: center;
 }
 
-/*.twitter{
-    
-    
-}
 
-.instagram{
-  
-    
-}
-
-.youtube{
-
-    
-}*/
 .ared{
     display: inline-flex;
     justify-content: center;
