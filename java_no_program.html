@@ -11,12 +11,14 @@
 <body>
     <header>
         <div id="barraDeArriba">
-            <div id="logo">
-                <a class="logoprincipal" href="index.html"><img src="Imagenes/logo.png" width="70" alt=""></a>
-            </div>
+            <div class="logoynombre">
+              <div id="logo">
+                <a href="index.html"><img src="Imagenes/logo.png" width="70" alt=""></a>
+              </div>
 
-            <div id="titulo">
-                    <h2><a href="index.html">Mortal Learning</a></h2>
+              <div id="titulo">
+                <h2>Mortal Learning</h2>
+              </div>
             </div>
             
             <div id="barradebusqueda">
@@ -41,7 +43,8 @@
             </div>
 
             <div id="carrito">
-                <img src="Imagenes/carrito.png" width="50" alt="">
+                <img src="Imagenes/carrito.png" class="logocarrito" width="50" alt="">
+                <span id="numcarrito">5</span>
             </div>
             
         </div>
@@ -59,48 +62,215 @@
     <!----------------------------------------------------------------------------------------------------->
     <!----------------------------PAGINA DE DETALLE DE CURSO----------------------------------------------->
 
-
-
     
 
-    <!----------------------------------------------------------------------------------------------------->
-    <!----------------------------------------------------------------------------------------------------->
-    <footer>
-        <div class="divfooter">
-            <div class="nombreydni1">
-                <ul>
-                    <li>Tabatha Peralta 39873678</li>
-                    <br>
-                    <li>Un Lean 36948258</li>
-                    <br>
-                    <li>Rocio Isaurralde 34412136</li>
-                    <br>
-                    <li>Leandro Martínez 38869671</li>
-                </ul>
-            </div>
-                 
-            <div class="facebook">
-                <a href="https://www.facebook.com"><img src="Imagenes/facebook.png" width="55" alt=""></a>
-            </div>
-     
-            <div class="twitter">
-                <a href="https://www.twitter.com"><img src="Imagenes/twitter.png" width="55" alt=""></a>
-            </div>
-     
-            <div class="instagram">
-                <a href="https://www.instagram.com"><img src="Imagenes/instagram.png" width="55" alt=""></a>
-            </div>
-     
-            <div class="youtube">
-                <a href="https://www.youtube.com"><img src="Imagenes/youtube.png" width="55" alt=""></a>
-            </div>
-                 
-            <div class="derechos">
-                <p>© 2019 Mortal Learning, Inc.</p>
-            </div>
-     
+    <div class="supercaja">
+        <div class="tituloprincipal">
+            <h1>Java para no programadores</h1>
         </div>
-     
-    </footer>
+
+        <div class="catalogo">
+    
+            <div class="cajamayor">
+                <div class="cajitacurso">
+                    <div class="imgcursos">
+                        <img src="Imagenes/java.png" alt="">
+                    </div>
+                    <div class="descripcion">
+                        <p><strong>Descripcion: </strong>En este curso se aprenderá desde cero a diseñar utilizando diferentes 
+                            algoritmos de pseudocódigo y codificar pequeños sistemas. Partiendo desde los conceptos iniciales 
+                            de programacion, como uso de variables y tipos de dato, aprenderás las estructuras básicas como 
+                            sentencias condicionales, bucles de repetición, uso de vectores y una introducción a la interfaz 
+                            gráfica de usuario para desarrollar aplicaciones de escritorio.Al finalizar este curso tendrás los 
+                            conceptos fundamentales de Programacion para hacer el curso de Java Standard Programming.</p> 
+                        <p><strong>Valor: </strong>$2390</p>
+                        <p><strong>Tiempo de dedicacion necesario: </strong>15 horas</p>
+                        <p><strong>Requisitos Previos: </strong>- - - - - - -</p>
+                        
+                        <div class="boton1">
+                            <a href="inscripcion.html">INSCRIBIRME</a>
+                        </div>
+                    </div>
+                </div>
+            </div>                
+        </div> 
+        
+        <div class="subtitulo">
+            <h1>Contenidos por clase</h1>
+        </div>
+        <div class="contenido">
+            <ul class="L2">
+                <ul class="L1">
+                    INTRODUCCION A JAVA
+                    <li class="pp">• ¿Qué es Java?</li>
+                    <li class="pp">• Organizacion</li>
+                    <li class="pp">• El compilador</li>
+                </ul>
+                <ul class="L1">
+                    SINTAXIS Y SEMÁNTICA
+                    <li class="pp">• Identificador</li>
+                    <li class="pp">• Definicion de variables en Java</li>
+                    <li class="pp">• Tipos de datos</li>
+                </ul>
+                <ul class="L1">
+                    ESTRUCTURAS DE CONTROL DE FLUJO
+                    <li class="pp">• Sentencias condicionales</li>
+                    <li class="pp">• Bifurcacion if</li>
+                    <li class="pp">• Bifurcacion switch</li>
+                    <li class="pp">• Bucle for</li>
+                    <li class="pp">• Bucle while</li>
+                    <li class="pp">• Bucle do while</li>
+                </ul>
+                <ul class="L1">
+                    VECTORES
+                    <li class="pp">• Introduccion</li>
+                    <li class="pp">• Creacion</li>
+                    <li class="pp">• Usos</li>
+                    <li class="pp">• Inicializacion en la creacion</li>
+                    <li class="pp">• Recorrido del array</li>
+                    <li class="pp">• Copia de arrays</li>
+                </ul>
+            </ul>
+        </div>
+        
+        <!---------------------------DOCENTE-------------------------------------------------------------------->
+        <h2>DOCENTE</h2>
+        <div class="contenedordocente">
+            <div class="cajadocente">
+                <div class="imgdocente">
+                    <img src="Imagenes/human-icon-png-1901.png" alt="">
+                </div>
+            </div>
+
+            <div class="descripdocente">
+                <h3>NOMBRE Y APELLIDO</h3>
+                <form>
+                    <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                    </p>
+                </form>    
+                <p>Licenciado en Sistemas. Profesor de Java Standard y Modulos de Spring Framework (Spring Sore, Security, MVC, AOP, JPA).        
+                Java Standard: clases principales, funcionamiento del lenguaje, colecciones, interfaz gráfica, conexiones con bases de datos. 
+                Arquitectura de Software: pruebas de concepto de bases de datos NoSQL</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cursos">
+        <div class="curso1" id="curso">
+            <a href="#"><img src="Cursos/java.jpg" alt="">
+                <div class="precio">$000.-</div></a>
+                <div class="horasnombre">
+                    <div class="cajahoras">
+                        <p class="numhr">60</p>
+                        <p class="hs">hs</p>
+                    </div>
+                    <div class="cajanombre">
+                        <p class="nombrecurso">Nombre del Curso</p>
+                        <a href="#" class="detalle">Ver detalle</a>
+                        <button class="botoncomprar">Comprar</button>
+                    </div>
+                </div>
+        </div>
+        <div class="curso2" id="curso">
+                <a href="#"> <img src="Cursos/SQL server.jpg" alt="">
+                  <div class="precio">$000.-</div></a>
+                <div class="horasnombre">
+                  <div class="cajahoras">
+                    <p class="numhr">60</p>
+                    <p class="hs">hs</p>
+                  </div>
+                  <div class="cajanombre">
+                    <p class="nombrecurso">Nombre del Curso</p>
+                    <a href="#" class="detalle">Ver detalle</a>
+                    <button class="botoncomprar">Comprar</button>
+                  </div>
+                </div>
+             </div>
+      
+             <div class="curso3" id="curso">
+                <a href="#"><img src="Cursos/android.jpg" alt="">
+                  <div class="precio">$000.-</div></a>
+                <div class="horasnombre">
+                  <div class="cajahoras">
+                    <p class="numhr">60</p>
+                    <p class="hs">hs</p>
+                  </div>
+                  <div class="cajanombre">
+                    <p class="nombrecurso">Nombre del Curso</p>
+                    <a href="#" class="detalle">Ver detalle</a>
+                    <button class="botoncomprar">Comprar</button>
+                  </div>
+                </div>
+             </div>
+    </div>    
+
+    <!----------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------->
+    
+    <footer>
+       <div class="divfooter">
+           <div class="nombreydni1">
+               <ul>
+                   <li>Tabatha Peralta 39873678</li>
+                   <br>
+                   <li>Leandro Aranda 36948258</li>
+                   <br>
+                   <li>Rocio Isaurralde 34412136</li>
+                   <br>
+                   <li>Leandro Martínez 38869671</li>
+               </ul>
+            </div>
+
+            <div class="cajamenuinferior">
+              <ul class="listamenu">
+                <li class="iteminf"><a href="index.html">Inicio</a></li>
+                <li class="iteminf"><a href="inscripcion.html">Inscripción</a></li>
+                <li class="iteminf"><a href="cursos.html">Cursos</a></li>
+                <li class="iteminf"><a href="calendario.html">Calendario</a></li>
+                <li class="iteminf"><a href="giftcard.html">Grif Card</a></li>
+                <li class="iteminf"><a href="Contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+            
+            <div class="cajaredes">
+
+              <div class="redes1">
+                <div class="facebook">
+                  <a href="https://www.facebook.com" class="ared"><img src="Imagenes/facebook.png" width="55" alt=""></a>
+                </div>
+
+                <div class="twitter">
+                  <a href="https://www.twitter.com" class="ared"><img src="Imagenes/twitter.png" width="55" alt=""></a>
+                </div>
+              </div>
+
+              <div class="redes2">
+                <div class="instagram">
+                  <a href="https://www.instagram.com" class="ared"><img src="Imagenes/instagram.png" width="55" alt=""></a>
+                </div>
+
+                <div class="youtube">
+                  <a href="https://www.youtube.com" class="ared"><img src="Imagenes/youtube.png" width="55" alt=""></a>
+                </div>
+              </div>
+
+              <div class="derechos">
+                <p>© 2019 Mortal Learning, Inc.</p>
+              </div>
+            </div>
+            
+       </div>
+
+   </footer>
 </body>
 </html>
