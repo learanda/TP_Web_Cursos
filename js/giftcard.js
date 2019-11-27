@@ -5,13 +5,14 @@ $(document).ready(function(){
 	editarDestinatario();
 	seleccionarColorDeFuente();
 	seleccionarTamanioDeFuente();
+	editarMonto();
 
 
 });
 
 function inicializarVistaPrevia() {
 	actualizarColorDeFuente();
-	actualizarTamanioDeFuente();
+	actualizarTamanioDeFuente();	
 }
 
 function actualizarColorDeFuente() {
@@ -52,4 +53,25 @@ function seleccionarTamanioDeFuente() {
 	$("input[name='tamanioFuente']").change(function(){
 		actualizarTamanioDeFuente();
 	});
+}
+
+function editarMonto() {
+	$("#montoGiftcard").keyup(function(){
+
+		var monto = $(this).val();
+
+		if (monto === "") {
+			monto = getMontoDefault();			
+		}
+
+		$("#precioVistaPrevia").text(formatearMonto(monto));		
+	});
+}
+
+function getMontoDefault() {
+	return "0000.-";
+}
+
+function formatearMonto(monto) {
+	return "$" + monto;
 }
