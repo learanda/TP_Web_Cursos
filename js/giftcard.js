@@ -4,17 +4,24 @@ $(document).ready(function(){
 
 	editarDestinatario();
 	seleccionarColorDeFuente();
+	seleccionarTamanioDeFuente();
 
 
 });
 
 function inicializarVistaPrevia() {
 	actualizarColorDeFuente();
+	actualizarTamanioDeFuente();
 }
 
 function actualizarColorDeFuente() {
 	var colorDeFuente = $("input[name='color']:checked").val();
 	$("div.titulo").css("color", colorDeFuente);		
+}
+
+function actualizarTamanioDeFuente() {
+	var tamanioFuente = $("input[name='tamanioFuente']:checked").val();
+	$("#tituloDestinatario").css("font-size", tamanioFuente);
 }
 
 function editarDestinatario() {
@@ -38,5 +45,11 @@ function getTituloDestinatarioDefault() {
 function seleccionarColorDeFuente() {
 	$("input[name='color']").change(function(){
 		actualizarColorDeFuente();
+	});
+}
+
+function seleccionarTamanioDeFuente() {
+	$("input[name='tamanioFuente']").change(function(){
+		actualizarTamanioDeFuente();
 	});
 }
