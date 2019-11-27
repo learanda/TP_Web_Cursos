@@ -27,6 +27,26 @@ function actualizarTamanioDeFuente() {
 	$("#tituloDestinatario").css("font-size", tamanioFuente);
 }
 
+function actualizarUbicacionDelPrecio() {
+
+	var nuevaUbicacion = $("input[name='ubicacion']:checked").val();
+
+	$("div.precio").removeClass("abajo arriba izquierda derecha");		
+
+	if (nuevaUbicacion === "abajo") {
+		$("div.precio").addClass("abajo derecha");			
+	} else if (nuevaUbicacion === "arribaIzquierda") {
+		$("div.precio").addClass("arriba izquierda");			
+	} else if (nuevaUbicacion === "arribaDerecha") {
+		$("div.precio").addClass("arriba derecha");			
+	}
+}
+
+function actualizarFondo() {
+	var color = $("input[name='fondo']:checked").val();
+	$(".vista-previa").css("background-color", color);
+}
+
 function editarDestinatario() {
 	$("#NombreDestinatario").keyup(function(){
 
@@ -84,28 +104,8 @@ function seleccionarUbicacion() {
 	});
 }
 
-function actualizarUbicacionDelPrecio() {
-
-	var nuevaUbicacion = $("input[name='ubicacion']:checked").val();
-
-	$("div.precio").removeClass("abajo arriba izquierda derecha");		
-
-	if (nuevaUbicacion === "abajo") {
-		$("div.precio").addClass("abajo derecha");			
-	} else if (nuevaUbicacion === "arribaIzquierda") {
-		$("div.precio").addClass("arriba izquierda");			
-	} else if (nuevaUbicacion === "arribaDerecha") {
-		$("div.precio").addClass("arriba derecha");			
-	}
-}
-
 function seleccionarFondo() {
 	$("input[name='fondo']").change(function(){
 		actualizarFondo();		
 	});	
-}
-
-function actualizarFondo() {
-	var color = $("input[name='fondo']:checked").val();
-	$(".vista-previa").css("background-color", color);
 }
