@@ -7,12 +7,14 @@ $(document).ready(function(){
 	seleccionarTamanioDeFuente();
 	editarMonto();
 	seleccionarUbicacion();
+	seleccionarFondo();
 });
 
 function inicializarVistaPrevia() {
 	actualizarColorDeFuente();
 	actualizarTamanioDeFuente();
-	actualizarUbicacionDelPrecio();	
+	actualizarUbicacionDelPrecio();
+	actualizarFondo();
 }
 
 function actualizarColorDeFuente() {
@@ -95,4 +97,15 @@ function actualizarUbicacionDelPrecio() {
 	} else if (nuevaUbicacion === "arribaDerecha") {
 		$("div.precio").addClass("arriba derecha");			
 	}
+}
+
+function seleccionarFondo() {
+	$("input[name='fondo']").change(function(){
+		actualizarFondo();		
+	});	
+}
+
+function actualizarFondo() {
+	var color = $("input[name='fondo']:checked").val();
+	$(".vista-previa").css("background-color", color);
 }
