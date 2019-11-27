@@ -16,7 +16,7 @@ function inicializarVistaPrevia() {
 
 function actualizarColorDeFuente() {
 	var colorDeFuente = $("input[name='color']:checked").val();
-	$("div.titulo").css("color", colorDeFuente);		
+	$("#tituloDestinatario").css("color", colorDeFuente);		
 }
 
 function actualizarTamanioDeFuente() {
