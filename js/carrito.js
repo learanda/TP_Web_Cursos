@@ -1,7 +1,8 @@
 window.onload=function(){
 	if(sessionStorage.contador != undefined){
 		document.getElementById("numcarrito").innerHTML = sessionStorage.contador
-	}
+    }
+
 }
 
 function comprar(){
@@ -19,3 +20,10 @@ function comprar(){
 function resetearClicks() {
     localStorage.removeItem("contador");
 }*/
+
+/********** SLIDER **********/
+$(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide",
+    });
+  });
